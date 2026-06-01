@@ -1,0 +1,58 @@
+dev -> 
+
+        web dev ->
+            frontend dev ->
+                -> html, css, js
+
+
+        Mobile dev ->
+            backend dev ->
+                -> python, java, nodejs
+
+
+        Data base dev ->
+            database dev ->
+                -> sql, plsql
+
+
+------------------------------------------------
+
+html -> hypertext markup language
+version 5 -> 2014
+
+css -> cascading style sheet
+version 3 -> 1996
+
+-------------------------------------------------
+
+
+html 
+
+    tags : open_tag, close_tag, self_closing_tag
+
+        open_tag -> <tag_name>
+        close_tag -> </tag_name>
+
+        <tag_name /> -> self_closing_tag   -> <br>
+
+
+----------------------------------------------------
+
+
+c -> file_save.c
+html -> file_save.html
+
+-----------------------------
+
+
+<!DOCTYPE html>   -> document type declaration -> html 
+<html lang="en">   -> in html tag -> language attribute
+<head>  
+    <meta charset="UTF-8"> -> character encoding -> utf-8 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -> title tag -> document title
+</head>
+<body>
+    
+</body>
+</html>
