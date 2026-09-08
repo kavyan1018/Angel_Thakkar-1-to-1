@@ -1,0 +1,15 @@
+dev 
+    -> frontend
+        HTML, CSS
+
+
+    -> backend 
+        C, C++, java 
+
+
+
+------------------------------------
+types of way to write CSS
+    -> inline     -> one line  ==> style  
+    -> internal   -> Head and body section of HTML file  ==> style 
+    -> external  -> css file (fileName.css)   -> .c -> .html  ==> HTML file link 
