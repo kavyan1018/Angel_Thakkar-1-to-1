@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* Pseudo class
+        hover
+        link
+        visited 
+        active
+        focuse 
+    */
+
+    a{
+        text-decoration: none;
+    }
+
+    .social-links{
+        font-size: 48px;
+    }
+
+    .social-links:hover{
+        color: green;
+        font-size: 50px;
+    }
+
+
+    .social-links:active{
+        background-color: black;
+        color: goldenrod;
+    }
+
+    .social-links:visited{
+        color: grey;
+    }
+
+    .social-links:link{
+        color: red;
+    }
+
+    #ak:focus{
+        outline: green 2px solid;
+    }
+
+</style>
+<body>
+
+    <h1 class="site-title">My favourite social handles</h1>
+    <div><a href="https://google.com" class="social-links" id="google">google</a></div>
+    <div><a href="https://facebook.com" class="social-links" id="facebook">facebook</a></div>
+    <div><a href="https://twitter.com" class="social-links" id="twitter">a twitter</a></div>
+    <div><a href="https://instagram.com" class="social-links" id="instagram">instagram</a></div>
+    <div><a href="https://youtube.com" class="social-links" id="youtube">youtube</a></div>
+    <div><a href="https://linkedin.com" class="social-links" id="linkedin">linkedIn</a></div>
+
+
+    <form>
+        <input type="text" id="ak">
+    </form>
+
+</body>
+
+</html>
